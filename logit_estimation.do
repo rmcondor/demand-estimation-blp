@@ -1,3 +1,21 @@
+********************************************************************************
+** 	TITLE: BLP_dataprep.do
+**
+**	PURPOSE: Preparation of data for demand estimation based on Berry et al. (1996) a.k.a BLP
+**				
+**	AUTHORS: Matias Borhi
+**			 Paula Armas
+**			 Ronny M. Condor
+**
+**	CREATED: 
+********************************************************************************
+
+clear all			//Clear memory
+cap log close		//Closes any open log files
+set maxvar 10000	//Set max number of variables
+set more off		//Running long code is not interrupted with ---more---
+set mem 100m		//Assing additional memory if needed
+set seed 170421		//Set a seed for doing anything random
 
 *Ejercicio 3
 

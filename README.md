@@ -2,7 +2,6 @@
 
 ## General information
 * Authors: Paula Armas, Matias Borhi, and Ronny M. Condor
-* Master in Economics
 * Department of Economics of San Andres University
 * Period: 2023
 

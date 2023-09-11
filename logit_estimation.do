@@ -76,7 +76,7 @@ qui forvalues i = 1/`=_N' {
 		local mediatemporal = r(mean)
 		replace iv_hi = `mediatemporal' if obs==`i'
 }
-label var iv_hi "Hausman instrument (IV2)
+label var iv_hi "Hausman instrument (IV2)"
 
 ivregress 2sls delta descuento (precio=iv_hi), first nocons
 outreg2 using "Tabla_Punto_3.tex", dec(3) 
